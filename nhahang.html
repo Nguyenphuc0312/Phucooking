@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="nhahang.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <nav class="layout">
+                <div class="header_logo_input">
+                    <a href="/Phucooking/index.html"><img src="/Phucooking/images/logonene.png" alt="images" class="header_logo"></a>
+                    
+                    <div class="header_input">
+                        <input type="text" placeholder="Nhập địa chỉ của bạn">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                </div>
+                <div class="header_feature">
+                    <div class="header_feature_cart">
+                        <i class='bx bx-cart' ></i>
+                    </div>
+                    <a href="/Phucooking/sigin.html" class="header_feature_login">
+                        Đăng nhập/Đăng ký
+                    </a>
+                    <div class="header_feature_eng">
+                        VI 
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="input">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" class="input_box" placeholder="Tìm món ăn hoặc quán ăn">
+    </div>
+    <main>
+        <div class="main_line">
+
+        </div>
+        <div class="content_layout">
+            <div class="content_no_food">
+                <img src="/Phucooking/images/chicken-bowl.svg" alt="images" class="content_no_food_img">
+                <div class="content_no_food_text1">
+                    Rất tiếc, hiện không có nhà hàng nào
+                </div>
+                <div class="conten_no_food_text2">
+                    Vui lòng làm mới trang để giải quyết sự cố 
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_layout">
+            <div class="footer_logo">
+                <img src="/Phucooking/images/Thiết kế chưa có tên.png" alt="" class="footer_logo_img">
+            </div>
+            <div class="footer_line"></div>
+            <div class="footer_info">
+                <div class="footer_info_colum1">
+                    <div class="footer_info_item">
+                        <a href="/Phucooking/#">Về PhucCooking</a>
+                    </div>
+                    <div class="footer_info_item">
+                        <a href="/Phucooking/#">Về Phúc?</a>
+                    </div>
+                    <div class="footer_info_item">
+                        <a href="/Phucooking/#">Blog</a>
+                    </div>
+                </div>
+                <div class="footer_info_colum2">
+                    <div class="footer_info_item">
+                        <a href="/Phucooking/#">Mở quán trên PhucCooking</a>
+                    </div>
+                    <div class="footer_info_item">
+                        <a href="/Phucooking/#">Trở thành tài xế PhucCooking</a>
+                    </div>
+                </div>
+                <div class="footer_info_colum3">
+                    <div class="footer_info_item">
+                        <a href="/Phucooking/#">Trung tâm hỗ trợ</a>
+                    </div>
+                    <div class="footer_info_item">
+                        <a href="/Phucooking/#">Câu hỏi thường gặp</a>
+                    </div>
+                </div>
+                <div class="footer_info_colum4">
+                    <div class="footer_info_mxh">
+                        <a href="https://www.facebook.com/profile.php?id=100044084820336"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="/Phucooking/#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="/Phucooking/#"><i class="fa-brands fa-square-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_line"></div>
+            <div class="footer_bottom">
+                <div class="footer_bottom_dowload">
+                    <div class="footer_bottom_dowload_ios">
+                        <a href="/Phucooking/#"><img src="/Phucooking/images/dowloadios.webp" alt="images" class="footer_bottom_dowload_img"></a>
+                    </div>
+                    <div class="footer_bottom_dowload_adr">
+                        <a href="/Phucooking/#"><img src="/Phucooking/images/dowloadand.webp" alt="images" class="footer_bottom_dowload_img"></a>
+                    </div>
+                </div>
+                <div class="footer_bottom_listinfo">
+                    <div class="footer_bottom_listinfo_item">
+                        <a href="/Phucooking/#">Câu hỏi thường gặp</a>
+                    </div>
+                    <div class="footer_bottom_listinfo_item">
+                        <a href="/Phucooking/#">Chính sách bảo mật</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script>
+        $(window).scroll(function()
+        {
+            if($(window).scrollTop())
+            {
+                $(".header").addClass("black");
+                $(".header").addClass("boxshadow");
+            }
+            else
+            {
+                $(".header").removeClass("black");
+                $(".header").removeClass("boxshadow");
+            }
+        })
+    </script>
+</body>
+</html>
